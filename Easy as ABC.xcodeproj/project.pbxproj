@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B009D1381CD19F1C00B556EA /* Solver.c in Sources */ = {isa = PBXBuildFile; fileRef = B009D1371CD19F1C00B556EA /* Solver.c */; };
 		B09562B11CBE83AC0046F0C5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B09562B01CBE83AC0046F0C5 /* main.c */; };
 		B09562B91CBE83D60046F0C5 /* load.c in Sources */ = {isa = PBXBuildFile; fileRef = B09562B71CBE83D60046F0C5 /* load.c */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B009D1371CD19F1C00B556EA /* Solver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Solver.c; path = ../../../../../../../../../../var/folders/lm/y2wvj_ps2x3875dd_5rkvgmc0000gn/T/com.apple.iChat/Messages/Transfers/Solver.c; sourceTree = "<group>"; };
+		B009D1391CD19F2A00B556EA /* Solver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Solver.h; path = ../../../../../../../../../../var/folders/lm/y2wvj_ps2x3875dd_5rkvgmc0000gn/T/com.apple.iChat/Messages/Transfers/Solver.h; sourceTree = "<group>"; };
 		B09562AD1CBE83AC0046F0C5 /* Easy as ABC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Easy as ABC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09562B01CBE83AC0046F0C5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B09562B71CBE83D60046F0C5 /* load.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = load.c; path = ../load.c; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 		B09562AF1CBE83AC0046F0C5 /* Easy as ABC */ = {
 			isa = PBXGroup;
 			children = (
+				B009D1371CD19F1C00B556EA /* Solver.c */,
+				B009D1391CD19F2A00B556EA /* Solver.h */,
 				B09562B71CBE83D60046F0C5 /* load.c */,
 				B0E3BE511CCD5EAB00A4129D /* load.h */,
 				B09562B01CBE83AC0046F0C5 /* main.c */,
@@ -125,6 +130,7 @@
 			files = (
 				B09562B11CBE83AC0046F0C5 /* main.c in Sources */,
 				B09562B91CBE83D60046F0C5 /* load.c in Sources */,
+				B009D1381CD19F1C00B556EA /* Solver.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,25 @@
 #include "load.h"
 #include <stdio.h>
 int main(){
+    
+    
+    
     char *test;
+    int boards=0;
+    printf("How many boards do you intend to play?");
+    scanf("%d",&boards);
+    int i=0;
+    //while(i<boards){
+        test= loadgrid();
+        setGrid(test);
+        findSol();
+        printf("%s","character at specified location is: ");
+        printf("%c\n",returnFinal());
+        i++;
+   // }
     
-    test= loadgrid();
     
-    printf(test);
+
     
     
 }
